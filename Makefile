@@ -13,3 +13,6 @@ publish:
 package-install:
 	pip install --user --force-reinstall dist/*.whl
 
+lint: #check code for the rules
+	poetry run flake8 brain_games
+
