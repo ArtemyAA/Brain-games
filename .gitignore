@@ -1,1 +1,2 @@
 .venv/ #ignoring direcrory
+dist/ #ignoring direcrory
