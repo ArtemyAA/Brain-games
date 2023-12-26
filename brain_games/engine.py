@@ -9,7 +9,7 @@ def start(game):
     print(game.QUESTION)
     while ROUNDS > 0:
         game.answer, game.content = game.round()
-        print(game.content)
+        print(f'Question: {game.content}')
         ans = game.answer_type(input('Your answer: '))
         if ans == game.answer:
             ROUNDS -= 1
