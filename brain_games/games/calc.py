@@ -17,5 +17,5 @@ def round():
         answer = number1 - number2
     elif operator == '*':
         answer = number1 * number2
-    content = f'{number1}{operator}{number2}'
+    content = f'{number1} {operator} {number2}'
     return answer, content
