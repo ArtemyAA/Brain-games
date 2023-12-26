@@ -4,3 +4,7 @@
 1. Brain-even game video 
 
 https://asciinema.org/a/628712
+
+2. Brain-calc game video
+
+https://asciinema.org/a/ON36qal0vUbvZg9s2Zavxnagf

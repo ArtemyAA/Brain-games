@@ -12,6 +12,5 @@ def round():
     if asked_number % 2 == 0:
         answer = 'yes'
     else:
-        answer = 'no' 
+        answer = 'no'
     return answer, content
-        
