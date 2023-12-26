@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Five different brain games with numbers"
+description = "Five different brain-games with numbers."
 authors = ["Artemy Ablaev <artemyablaev.gmail.com>"]
 readme = "README.md"
 packages = [{ include = "brain_games" }]
