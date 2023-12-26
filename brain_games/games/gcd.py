@@ -13,4 +13,3 @@ def round():
     content = f'{number1} {number2}'
     answer = math.gcd(number1, number2)
     return answer, content
-
