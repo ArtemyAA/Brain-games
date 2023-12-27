@@ -1,3 +1,3 @@
-.venv/ #ignoring direcrory
-dist/ #ignoring directory
-/__pycache__/ #ignoring all direcrories
+.venv/ 
+dist/ 
+__pycache__/ 
