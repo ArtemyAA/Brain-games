@@ -6,20 +6,20 @@
 
 1. EVEN game video 
 
-<script async id="asciicast-628976" src="https://asciinema.org/a/628976.js"></script>
+[![asciicast](https://asciinema.org/a/629133.svg)](https://asciinema.org/a/629133)
 
 2. CALC game video
 
-<script async id="asciicast-628973" src="https://asciinema.org/a/628973.js"></script>
+[![asciicast](https://asciinema.org/a/629135.svg)](https://asciinema.org/a/629135)
 
 3. GCD game video
 
-<script async id="asciicast-628977" src="https://asciinema.org/a/628977.js"></script>
+[![asciicast](https://asciinema.org/a/629136.svg)](https://asciinema.org/a/629136)
 
 4. PROGRESSION game video
 
-<script async id="asciicast-628998" src="https://asciinema.org/a/628998.js"></script>
+[![asciicast](https://asciinema.org/a/629137.svg)](https://asciinema.org/a/629137)
 
 5. PRIME game video
 
-<script async id="asciicast-629045" src="https://asciinema.org/a/629045.js"></script>
+[![asciicast](https://asciinema.org/a/629138.svg)](https://asciinema.org/a/629138)
