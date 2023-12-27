@@ -7,17 +7,15 @@ def start(game):
     print(f'Hello, {name}!')
     ROUNDS = 3
     print(game.QUESTION)
-    while ROUNDS > 0:
-        game.answer, game.content = game.round()
-        print(f'Question: {game.content}')
-        ans = game.answer_type(input('Your answer: '))
-        if ans == game.answer:
-            ROUNDS -= 1
+    for _ in range(ROUNDS):
+        answer, content = game.next_round()
+        print(f'Question: {content}')
+        ans = str(input('Your answer: '))
+        if ans == str(answer):
             print('Correct!')
         else:
             print(f'{ans} is wrong answer ;(. \
-Correct answer was {game.answer}.')
+Correct answer was {answer}.')
             print(f"Let's try again, {name}! ")
             break
-    if ROUNDS == 0:
         print(f'Congratulations, {name}!')

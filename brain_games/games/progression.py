@@ -3,11 +3,11 @@
 from random import randint
 from random import choice
 
-answer_type = int
+
 QUESTION = 'What number is missing in the progression?'
 
 
-def round():
+def next_round():
     start_number = randint(1, 10)
     step = randint(1, 10)
     progression = list(range(start_number, start_number + 10 * step, step))

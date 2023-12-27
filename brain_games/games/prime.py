@@ -3,11 +3,10 @@
 from random import randint
 
 
-answer_type = str
 QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def round():
+def next_round():
     asked_number = randint(1, 100)
     content = asked_number
     div_amount = 0
