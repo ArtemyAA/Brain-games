@@ -19,7 +19,6 @@ brain-prime = "brain_games.scripts.brain_prime:main"
 brain-calc = "brain_games.scripts.brain_calc:main"
 
 [tool.poetry.group.dev.dependencies]
-prompt = "^0.4.1"
 flake8 = "^6.1.0"
 
 [build-system]

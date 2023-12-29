@@ -1,18 +1,19 @@
 from random import randint
 
 
-QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+DISCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def next_round():
-    asked_number = randint(1, 100)
-    content = asked_number
+def is_prime(number):
     div_amount = 0
-    for i in range(1, asked_number + 1):
-        if asked_number % i == 0:
+    for i in range(1, number + 1):
+        if number % i == 0:
             div_amount += 1
-    if div_amount == 2:
-        answer = 'yes'
-    else:
-        answer = 'no'
-    return answer, content
+    return True if div_amount == 2 else False
+
+
+def generate():
+    asked_number = randint(1, 100)
+    question = asked_number
+    answer = 'yes' if is_prime(asked_number) else 'no'
+    return answer, question

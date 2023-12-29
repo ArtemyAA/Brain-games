@@ -2,10 +2,10 @@ from random import randint
 from random import choice
 
 
-QUESTION = 'What is the result of the expression?'
+DISCRIPTION = 'What is the result of the expression?'
 
 
-def next_round():
+def generate():
     number1 = randint(1, 20)
     number2 = randint(1, 20)
     operator = choice('-+*')
@@ -15,5 +15,5 @@ def next_round():
         answer = number1 - number2
     elif operator == '*':
         answer = number1 * number2
-    content = f'{number1} {operator} {number2}'
-    return answer, content
+    question = f'{number1} {operator} {number2}'
+    return answer, question
