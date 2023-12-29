@@ -6,9 +6,10 @@
 #### This package contains 5 different brain games. Each of them will give you 3 rounds of solving numbers-based tasks #
 
 1. First of all you need to install the package. You can do it with following command:
+
 **pip install git@github.com:ArtemyAA/python-project-49.git --user**
 
-2. Then you need to use the same commands which are used in the videos below. Which command activates different game with its own rule. **Answer 3 times in a row to win.**
+2. Then you need to use the same commands which are used in the videos below. Each command activates different game with its own rule. **Answer 3 times in a row to win.**
 
 EVEN game video 
 
