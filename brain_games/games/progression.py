@@ -2,10 +2,10 @@ from random import randint
 from random import choice
 
 
-DISCRIPTION = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
 
 
-def generate():
+def generate_game_data():
     start_number = randint(1, 10)
     step = randint(1, 10)
     progression = list(range(start_number, start_number + 10 * step, step))
@@ -13,4 +13,4 @@ def generate():
     answer = progression[random_index]
     progression[random_index] = '..'
     question = ' '.join(map(str, progression))
-    return answer, question
+    return str(answer), question

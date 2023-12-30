@@ -1,19 +1,22 @@
 from random import randint
+from math import sqrt
 
 
-DISCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
-    div_amount = 0
-    for i in range(1, number + 1):
+    if number <= 1:
+        return False
+    for i in range(2, int(sqrt(number)) + 1):
         if number % i == 0:
-            div_amount += 1
-    return True if div_amount == 2 else False
+            return False
+    else:
+        return True
 
 
-def generate():
+def generate_game_data():
     asked_number = randint(1, 100)
     question = asked_number
     answer = 'yes' if is_prime(asked_number) else 'no'
-    return answer, question
+    return str(answer), question
