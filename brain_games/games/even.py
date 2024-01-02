@@ -11,4 +11,4 @@ def generate_game_data():
         answer = 'yes'
     else:
         answer = 'no'
-    return str(answer), question
+    return answer, question

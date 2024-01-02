@@ -1,10 +1,10 @@
-install: #installing 
+install: 
 	poetry install 
 
-brain-games: #run the app
+brain-games:
 	poetry run brain-games
 
-build: #poetry building
+build:
 	poetry build
 
 publish:
@@ -13,6 +13,5 @@ publish:
 package-install:
 	pip install --user --force-reinstall dist/*.whl
 
-lint: #check code for the rules
+lint:
 	poetry run flake8 brain_games
-

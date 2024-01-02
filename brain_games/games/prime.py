@@ -11,12 +11,10 @@ def is_prime(number):
     for i in range(2, int(sqrt(number)) + 1):
         if number % i == 0:
             return False
-    else:
-        return True
 
 
 def generate_game_data():
     asked_number = randint(1, 100)
     question = asked_number
     answer = 'yes' if is_prime(asked_number) else 'no'
-    return str(answer), question
+    return answer, question

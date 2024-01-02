@@ -1,16 +1,16 @@
 import prompt
 
 
-ATTEMPTS = 3  # дал более точное именование константы и расположил под импортом
+ATTEMPTS = 3
 
 
-def start_game(game_name):
+def start(game):
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!')
-    print(game_name.DESCRIPTION)
+    print(game.DESCRIPTION)
     for _ in range(ATTEMPTS):
-        right_answer, question = game_name.generate_game_data()
+        right_answer, question = game.generate_game_data()
         print(f'Question: {question}')
         user_answer = input('Your answer: ')
         if user_answer == right_answer:
@@ -22,4 +22,3 @@ Correct answer was {right_answer}.')
             break
     else:
         print(f'Congratulations, {user_name}!')
-# в целом прошелся по именованию и всем переменным дал более точное названия
