@@ -7,7 +7,7 @@
 
 1. First of all you need to install the package. You can do it with following command:
 
-  - **pip install <git@github.com:ArtemyAA/python-project-49.git> --user**
+  - *pip install git@github.com:ArtemyAA/python-project-49.git --user*
 
 2. Then you need to use the same commands which are used in the videos below.  
 Each command activates different game with its own rule. **Answer 3 times in a row to win.**
